@@ -1,0 +1,8 @@
+For each entry in the file, for the no_steering and steering fields, provide two new scores:
+
+no_steereing_concept_score - the extent to which the text expresses themes of violence, cruelty, unfair treatment, and aggressive intent
+steereing_concept_score - the extent to which the text expresses themes of violence, cruelty, unfair treatment, and aggressive intent
+no_steering_fluency - the extent to which the text is coherent and expresses a coherent thought
+steering_fluency - the extent to which the text is coherent and expresses a coherent thought.
+Rate both scores on a 10-point scale.
+Add these four scores to each entry and return the final file.
